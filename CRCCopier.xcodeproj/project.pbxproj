@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38B85D5D1EEB392100B28537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B85D5C1EEB392100B28537 /* AppDelegate.swift */; };
+		38B85D5F1EEB392100B28537 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B85D5E1EEB392100B28537 /* ViewController.swift */; };
+		38B85D611EEB392100B28537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B85D601EEB392100B28537 /* Assets.xcassets */; };
+		38B85D641EEB392100B28537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B85D621EEB392100B28537 /* Main.storyboard */; };
+		38B85D6F1EEB392500B28537 /* CRCCopierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B85D6E1EEB392500B28537 /* CRCCopierTests.swift */; };
+		38B85D7A1EEB392500B28537 /* CRCCopierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B85D791EEB392500B28537 /* CRCCopierUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38B85D6B1EEB392500B28537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38B85D511EEB392000B28537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38B85D581EEB392000B28537;
+			remoteInfo = CRCCopier;
+		};
+		38B85D761EEB392500B28537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38B85D511EEB392000B28537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38B85D581EEB392000B28537;
+			remoteInfo = CRCCopier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38B85D591EEB392000B28537 /* CRCCopier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRCCopier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B85D5C1EEB392100B28537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38B85D5E1EEB392100B28537 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38B85D601EEB392100B28537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38B85D631EEB392100B28537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38B85D651EEB392200B28537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38B85D6A1EEB392500B28537 /* CRCCopierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRCCopierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B85D6E1EEB392500B28537 /* CRCCopierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRCCopierTests.swift; sourceTree = "<group>"; };
+		38B85D701EEB392500B28537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38B85D751EEB392500B28537 /* CRCCopierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRCCopierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B85D791EEB392500B28537 /* CRCCopierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRCCopierUITests.swift; sourceTree = "<group>"; };
+		38B85D7B1EEB392600B28537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38B85D561EEB392000B28537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B85D671EEB392500B28537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B85D721EEB392500B28537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38B85D501EEB392000B28537 = {
+			isa = PBXGroup;
+			children = (
+				38B85D5B1EEB392000B28537 /* CRCCopier */,
+				38B85D6D1EEB392500B28537 /* CRCCopierTests */,
+				38B85D781EEB392500B28537 /* CRCCopierUITests */,
+				38B85D5A1EEB392000B28537 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38B85D5A1EEB392000B28537 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38B85D591EEB392000B28537 /* CRCCopier.app */,
+				38B85D6A1EEB392500B28537 /* CRCCopierTests.xctest */,
+				38B85D751EEB392500B28537 /* CRCCopierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38B85D5B1EEB392000B28537 /* CRCCopier */ = {
+			isa = PBXGroup;
+			children = (
+				38B85D5C1EEB392100B28537 /* AppDelegate.swift */,
+				38B85D5E1EEB392100B28537 /* ViewController.swift */,
+				38B85D601EEB392100B28537 /* Assets.xcassets */,
+				38B85D621EEB392100B28537 /* Main.storyboard */,
+				38B85D651EEB392200B28537 /* Info.plist */,
+			);
+			path = CRCCopier;
+			sourceTree = "<group>";
+		};
+		38B85D6D1EEB392500B28537 /* CRCCopierTests */ = {
+			isa = PBXGroup;
+			children = (
+				38B85D6E1EEB392500B28537 /* CRCCopierTests.swift */,
+				38B85D701EEB392500B28537 /* Info.plist */,
+			);
+			path = CRCCopierTests;
+			sourceTree = "<group>";
+		};
+		38B85D781EEB392500B28537 /* CRCCopierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38B85D791EEB392500B28537 /* CRCCopierUITests.swift */,
+				38B85D7B1EEB392600B28537 /* Info.plist */,
+			);
+			path = CRCCopierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38B85D581EEB392000B28537 /* CRCCopier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38B85D7E1EEB392600B28537 /* Build configuration list for PBXNativeTarget "CRCCopier" */;
+			buildPhases = (
+				38B85D551EEB392000B28537 /* Sources */,
+				38B85D561EEB392000B28537 /* Frameworks */,
+				38B85D571EEB392000B28537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRCCopier;
+			productName = CRCCopier;
+			productReference = 38B85D591EEB392000B28537 /* CRCCopier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38B85D691EEB392500B28537 /* CRCCopierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38B85D811EEB392600B28537 /* Build configuration list for PBXNativeTarget "CRCCopierTests" */;
+			buildPhases = (
+				38B85D661EEB392500B28537 /* Sources */,
+				38B85D671EEB392500B28537 /* Frameworks */,
+				38B85D681EEB392500B28537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38B85D6C1EEB392500B28537 /* PBXTargetDependency */,
+			);
+			name = CRCCopierTests;
+			productName = CRCCopierTests;
+			productReference = 38B85D6A1EEB392500B28537 /* CRCCopierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38B85D741EEB392500B28537 /* CRCCopierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38B85D841EEB392600B28537 /* Build configuration list for PBXNativeTarget "CRCCopierUITests" */;
+			buildPhases = (
+				38B85D711EEB392500B28537 /* Sources */,
+				38B85D721EEB392500B28537 /* Frameworks */,
+				38B85D731EEB392500B28537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38B85D771EEB392500B28537 /* PBXTargetDependency */,
+			);
+			name = CRCCopierUITests;
+			productName = CRCCopierUITests;
+			productReference = 38B85D751EEB392500B28537 /* CRCCopierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38B85D511EEB392000B28537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alex Albright";
+				TargetAttributes = {
+					38B85D581EEB392000B28537 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					38B85D691EEB392500B28537 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38B85D581EEB392000B28537;
+					};
+					38B85D741EEB392500B28537 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38B85D581EEB392000B28537;
+					};
+				};
+			};
+			buildConfigurationList = 38B85D541EEB392000B28537 /* Build configuration list for PBXProject "CRCCopier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38B85D501EEB392000B28537;
+			productRefGroup = 38B85D5A1EEB392000B28537 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38B85D581EEB392000B28537 /* CRCCopier */,
+				38B85D691EEB392500B28537 /* CRCCopierTests */,
+				38B85D741EEB392500B28537 /* CRCCopierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38B85D571EEB392000B28537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B85D611EEB392100B28537 /* Assets.xcassets in Resources */,
+				38B85D641EEB392100B28537 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B85D681EEB392500B28537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B85D731EEB392500B28537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38B85D551EEB392000B28537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B85D5F1EEB392100B28537 /* ViewController.swift in Sources */,
+				38B85D5D1EEB392100B28537 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B85D661EEB392500B28537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B85D6F1EEB392500B28537 /* CRCCopierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B85D711EEB392500B28537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B85D7A1EEB392500B28537 /* CRCCopierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38B85D6C1EEB392500B28537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38B85D581EEB392000B28537 /* CRCCopier */;
+			targetProxy = 38B85D6B1EEB392500B28537 /* PBXContainerItemProxy */;
+		};
+		38B85D771EEB392500B28537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38B85D581EEB392000B28537 /* CRCCopier */;
+			targetProxy = 38B85D761EEB392500B28537 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38B85D621EEB392100B28537 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38B85D631EEB392100B28537 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38B85D7C1EEB392600B28537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38B85D7D1EEB392600B28537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		38B85D7F1EEB392600B28537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CRCCopier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexAlbright.CRCCopier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		38B85D801EEB392600B28537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CRCCopier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexAlbright.CRCCopier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		38B85D821EEB392600B28537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CRCCopierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexAlbright.CRCCopierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRCCopier.app/Contents/MacOS/CRCCopier";
+			};
+			name = Debug;
+		};
+		38B85D831EEB392600B28537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CRCCopierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexAlbright.CRCCopierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRCCopier.app/Contents/MacOS/CRCCopier";
+			};
+			name = Release;
+		};
+		38B85D851EEB392600B28537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CRCCopierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexAlbright.CRCCopierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CRCCopier;
+			};
+			name = Debug;
+		};
+		38B85D861EEB392600B28537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CRCCopierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexAlbright.CRCCopierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CRCCopier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38B85D541EEB392000B28537 /* Build configuration list for PBXProject "CRCCopier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B85D7C1EEB392600B28537 /* Debug */,
+				38B85D7D1EEB392600B28537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38B85D7E1EEB392600B28537 /* Build configuration list for PBXNativeTarget "CRCCopier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B85D7F1EEB392600B28537 /* Debug */,
+				38B85D801EEB392600B28537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38B85D811EEB392600B28537 /* Build configuration list for PBXNativeTarget "CRCCopierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B85D821EEB392600B28537 /* Debug */,
+				38B85D831EEB392600B28537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38B85D841EEB392600B28537 /* Build configuration list for PBXNativeTarget "CRCCopierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B85D851EEB392600B28537 /* Debug */,
+				38B85D861EEB392600B28537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38B85D511EEB392000B28537 /* Project object */;
+}
