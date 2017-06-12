@@ -22,6 +22,10 @@ class ViewController: NSViewController {
         }
     }
 
+    @IBAction func copyFiles(_ sender: Any) {
+ 
+    }
+
 
 }
 
