@@ -22,10 +22,10 @@ class ViewController: NSViewController {
         }
     }
 
-    @IBAction func copyFiles(_ sender: Any) {
- 
+    
+    @IBAction func buttonPress(_ sender: Any) {
+        print("Starting File Transfer")
     }
-
 
 }
 
